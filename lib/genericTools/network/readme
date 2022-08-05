@@ -1,0 +1,13 @@
+how to use class "NetworkManager"
+
+    NetworkManager.start(url, body: body,  callback: (status, msg, json){
+      //Log.i("loginAPI - status: " + status.toString() );
+
+      if( status ) {
+        parseJson(json);
+      } else  {
+        callBack( false , msg );
+      }
+
+    });
+  }
