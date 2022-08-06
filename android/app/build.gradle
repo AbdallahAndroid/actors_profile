@@ -45,6 +45,16 @@ android {
         versionName flutterVersionName
     }
 
+    signingConfigs {
+        release {//E:\wk\flutter\interview\actorsProfile\01\ActorsProfile\
+            storeFile file("E:\\wk\\flutter\\interview\\actorsProfile\\01\\ActorsProfile\\actors.jks")
+            storePassword "actors"
+            keyAlias "actors"
+            keyPassword "actors"
+        }
+    }
+
+
     buildTypes {
         release {
             // TODO: Add your own signing config for the release build.

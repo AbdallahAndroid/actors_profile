@@ -2,6 +2,19 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+		<key>NSCameraUsageDescription</key>
+    	<string>Capture personal photo for his profile, to be show at his profile page</string>
+    	<key>NSPhotoLibraryUsageDescription</key>
+    	<string>Can picker photo to save in local</string>
+	 <key>NSPhotoLibraryUsageDescription</key>
+ <string>Can picker photo to save in local storage</string>
+
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
